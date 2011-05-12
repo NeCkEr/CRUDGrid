@@ -1,0 +1,642 @@
+/* CSS Document */
+
+ html, body {margin:0; padding:0; width:100%; height:100%; background:#cccccc;}
+
+body { margin:0; font-family:Arial; font-size:14px;}
+
+a{text-decoration:none; color:#6a665c;}
+
+#wraper { width:100%; height:100%; position:absolute; }
+
+#topo { width:100%; float:left; height:87px; background: url('../images/slice.png') repeat-x; overflow:hidden; }
+
+#top-wrapper{height:42px;float:right;padding-top:17px; padding-right:24px;}
+
+.top-menu{float:right;height:32px;font: 14px arial;font-weight:bold;color:#FFFFFF;position: relative; top:12px;padding-left:5px; }
+
+#user {font:13px arial;margin:17px 30px; padding:5px 5px; height:37px;float:left; border-left: 1px solid #666666}
+
+#menu {float:left;width:187px;height:379px;border:4px solid #ffffff;background:url('../images/menu-back.png');}
+
+#content {border: 0px solid #666666; float:left; width:98%;margin-left:1%; text-align:left;}
+
+h3 {color:#0099FF;margin-left:15px;}
+
+#contactArea p{color:#000000;}
+
+.validEmail
+
+                {
+
+                        margin-top:4px;
+
+                        margin-left:8px;
+
+                        max-width: 16px;
+
+                        height: 16px;
+
+                }
+
+                .validEmail2
+
+                                {
+
+                                        margin-top:4px;
+
+                                        margin-left:8px;
+
+                                        width: 16px;
+
+                                        height: 16px;
+
+                                }
+
+.dp-choose-date
+
+{
+
+        color:#0099FF;
+
+}
+
+.confirmButton
+
+{
+
+        background:url("../images/bt.png");
+
+        width:70px;
+
+        display:block;
+
+        height:29px;
+
+        float:right;
+
+        margin-right:4px;
+
+        margin-bottom:4px;
+
+        text-align:center;
+
+        color:#333333;
+
+        font:13px arial;
+
+        font-weight:bold;
+
+        cursor:pointer;
+
+}
+
+.confirmButton span
+
+{
+
+        display:block;
+
+        float:middle;
+
+        margin-top:7px;
+
+        color:#333333;
+
+        font:13px arial;
+
+        font-weight:bold;
+
+        cursor:pointer;
+
+}
+
+.deleteConfirm
+
+{
+
+        background:url("../images/bt_delete.png");
+
+        width:105px;
+
+        text-align:center;
+
+        display:block;
+
+        height:29px;
+
+        float:right;
+
+        margin-right:4px;
+
+        margin-bottom:4px;
+
+}
+
+.deleteConfirm span
+
+{
+
+        display:block;
+
+        padding-top:7px;
+
+        color:#333333;
+
+        font:13px arial;
+
+        font-weight:bold;
+
+        cursor:pointer;
+
+}
+
+#paginasNumeros img{
+
+        padding-top:5px;
+
+        position:relative;
+
+}
+
+#paginasNumeros {
+
+display: table-cell;
+
+vertical-align: middle;
+
+
+
+}
+
+#tooltip {
+
+        position: absolute;
+
+        z-index: 3000;
+
+        border: 1px solid #000000;
+
+        background-color: #FFFFFF;
+
+        padding: 5px;
+
+        opacity: 0.85;
+
+}
+
+#tooltip h3, #tooltip div { margin: 0; }
+
+
+
+#accordionFaq h3
+
+{
+
+        background:none;
+
+}
+
+#accordionFaq div
+
+{
+
+        padding-left:40px;
+
+        height:auto;
+
+}
+
+.menuSuba a
+
+{
+
+        padding-left:38px;
+
+}
+
+.menuSuba2 a
+
+{
+
+        padding-left:38px;
+
+}
+
+.buttonSelect
+
+{
+
+color:#333333;
+
+font:13px arial;
+
+font-weight:bold;
+
+cursor:pointer;
+
+height:26px;
+
+float:right;
+
+border:none;
+
+background:url('../images/butao_new.png') no-repeat;
+
+margin-top:4px;
+
+}
+
+
+
+.concluir
+
+{
+
+color:#333333;
+
+font:13px arial;
+
+font-weight:bold;
+
+cursor:pointer;
+
+width:100px;
+
+height:31px;
+
+text-align:center;
+
+float:right;
+
+border:none;
+
+background:url('../images/btnNext.png') no-repeat;
+
+margin-right:4px;
+
+margin-bottom:4px;
+
+}
+
+
+
+.noticiaN
+
+{
+
+color:#333333;
+
+font:13px arial;
+
+font-weight:bold;
+
+cursor:pointer;
+
+width:164px;
+
+height:31px;
+
+float:right;
+
+text-align:center;
+
+border:none;
+
+background:url('../images/btnNext.png') no-repeat;
+
+margin-right:4px;
+
+margin-bottom:4px;
+
+}
+
+
+
+
+
+
+
+
+.file_new {
+
+    background: #fff;
+
+    color: #888;
+
+        border:0px;
+
+}
+
+
+.wrapperText
+
+{
+
+        float:left;
+
+        width:auto;
+
+        text-align:left;
+
+         color:#0073EA;
+
+        font: 13px arial;
+
+        font-weight:bold;
+
+        vertical-align: middle;
+
+        margin-left: 15px;
+
+}
+
+.wrapperText span
+
+{
+
+        display:block;
+
+        float:left;
+
+        margin-top:4px;
+
+}
+
+
+
+/*
+.wrapperText2
+
+{
+
+        float:left;
+
+        width:auto;
+
+        text-align:left;
+
+         color:#ffffff;
+
+        font: 13px arial;
+
+        font-weight:bold;
+
+        vertical-align: middle;
+
+        margin-left: 15px;
+
+}
+
+.wrapperText2 span
+
+{
+
+        display:block;
+
+        width:100px;
+
+        float:left;
+
+        margin-top:4px;
+
+}
+
+.wrapperText
+
+{
+
+        float:left;
+
+        width:auto;
+
+        text-align:left;
+
+         color:#0073EA;
+
+        font: 13px arial;
+
+        font-weight:bold;
+
+        vertical-align: middle;
+
+        margin-left: 15px;
+
+}
+
+.wrapperText span
+
+{
+
+        display:block;
+
+        float:left;
+
+        margin-top:4px;
+
+}
+
+
+
+
+
+
+
+.wrapperInput, .wrapperInpuText{
+
+        float:left;
+
+        background:#cccccc ;
+
+        height:20px;
+
+        padding-top:3px;
+
+        padding-left:3px;
+
+        margin-left:10px;
+
+}
+
+
+
+textarea{border:0px;width:100%;height:100%;}
+
+.wrapperInput select{
+
+        background: transparent;
+
+        border: none;
+
+}
+
+.wrapperInput input{
+
+        background: transparent;
+
+}
+
+
+
+input[type=text], input[type=password], input[type=file]
+
+{
+
+        border:0px;
+
+        width:100%;
+
+
+
+}
+
+input[type="checkbox"]
+
+{
+
+        border:0;
+
+        background:none;
+
+}
+
+*/
+
+
+
+/**
+
+popup
+
+**/
+
+
+
+ #backgroundPopup{
+
+display:none;
+
+position:fixed;
+
+_position:absolute; /* hack for internet explorer 6*/
+
+height:100%;
+
+width:100%;
+
+top:0;
+
+left:0;
+
+background:#000000;
+
+border:1px solid #cecece;
+
+z-index:1;
+
+}
+
+#popupContact{
+
+display:none;
+
+position:fixed;
+
+_position:absolute; /* hack for internet explorer 6*/
+
+height:auto;
+
+width:408px;
+
+background:#FFFFFF;
+
+z-index:2;
+
+padding:12px;
+
+font-size:13px;
+
+color:#6a665c;
+
+text-align:left;
+
+}
+
+#popupContact h1{
+
+text-align:left;
+
+color:#0099FF ;
+
+font-size:18px;
+
+font-weight:700;
+
+padding-bottom:2px;
+
+margin-bottom:20px;
+
+}
+
+#popupContact p{
+
+text-align:left;
+
+color:#000000 ;
+
+font-size:18px;
+
+font-weight:700;
+
+padding-bottom:2px;
+
+margin-bottom:20px;
+
+}
+
+#popupContactClose{
+
+right:6px;
+
+top:4px;
+
+position:absolute;
+
+color:#f7931e ;
+
+display:block;
+
+cursor:pointer;cursor:hand;
+
+}
+
+#button{
+
+text-align:center;
+
+margin:100px;
+
+}
+
+
+
+#popupLoader{
+
+display:none;
+
+position:fixed;
+
+_position:absolute; /* hack for internet explorer 6*/
+
+height:48px;
+
+width:64px;
+
+z-index:2;
+
+text-align:center;
+
+padding-top:16px;
+
+background-color:#FFFFFF;
+
+}
